@@ -2,6 +2,9 @@ Home Assistant sensor config for Comet T3511 temperature & humidity sensor
 
 Communication via modbus.
 
+CHANGE DEVICE IP ADDRESS!
+--------------------------
+
 PL to EN translation:
 
 temperatura = temperature
