@@ -1,26 +1,26 @@
 modbus:
   - name: modbus_comet_hub
     type: tcp
-    host: 192.168.0.1 #zmien adres IP
+    host: 192.168.1.213 #zmien adres IP
     port: 502
     delay: 10
     timeout: 5
     sensors:
-      - name: comet_temperatura
+      - name: comet_temperatura #nazwa_sensora
         address: 48
         unit_of_measurement: °C
         device_class: temperature
         state_class: measurement
         scale: 0.1
         precision: 1
-      - name: comet_wilgotnosc
+      - name: comet_wilgotnosc #nazwa_sensora
         address: 49
         unit_of_measurement: "%"
         device_class: humidity
         state_class: measurement
         scale: 0.1
         precision: 1
-      - name: comet_cisnienie
+      - name: comet_cisnienie #nazwa_sensora
         address: 51
         unit_of_measurement: hPa
         device_class: atmospheric_pressure
