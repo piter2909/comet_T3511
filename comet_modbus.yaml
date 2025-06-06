@@ -6,21 +6,21 @@ modbus:
     delay: 10
     timeout: 5
     sensors:
-      - name: comet_temperatura #nazwa_sensora
+      - name: comet_temperatura #nazwa_sensora_temp
         address: 48
         unit_of_measurement: °C
         device_class: temperature
         state_class: measurement
         scale: 0.1
         precision: 1
-      - name: comet_wilgotnosc #nazwa_sensora
+      - name: comet_wilgotnosc #nazwa_sensora_wilg
         address: 49
         unit_of_measurement: "%"
         device_class: humidity
         state_class: measurement
         scale: 0.1
         precision: 1
-      - name: comet_cisnienie #nazwa_sensora
+      - name: comet_cisnienie #nazwa_sensora_cisn
         address: 51
         unit_of_measurement: hPa
         device_class: atmospheric_pressure
