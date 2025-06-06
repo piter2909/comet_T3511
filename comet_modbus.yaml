@@ -13,7 +13,6 @@ modbus:
         state_class: measurement
         scale: 0.1
         precision: 1
-	input_type: holding
       - name: comet_wilgotnosc
         address: 49
         unit_of_measurement: "%"
@@ -21,7 +20,6 @@ modbus:
         state_class: measurement
         scale: 0.1
         precision: 1
-	input_type: holding
       - name: comet_cisnienie
         address: 51
         unit_of_measurement: hPa
