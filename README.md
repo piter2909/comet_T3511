@@ -3,9 +3,12 @@ Communication via modbus.
 
 PL to EN translation:
 
-emperatura = temperature
+temperatura = temperature
+
 wilgotnosc = humidity
+
 cisnienie = atmospheric pressure (because device shows atmospheric preassure)
+
 
 This is an example config, edit configuration.yaml and add below lines, modify them to your needs.
 
