@@ -1,4 +1,5 @@
 Home Assistant config for Comet T3511 temperature & humidity sensor
+
 Communication via modbus.
 
 PL to EN translation:
