@@ -10,6 +10,6 @@ wilgotnosc = humidity
 cisnienie = atmospheric pressure (because device shows atmospheric preassure)
 
 
-This is an example config, edit configuration.yaml and add below lines, modify them to your needs.
+This is an example config, edit configuration.yaml.
 
 Host IP address is default device address (192.168.1.213)
