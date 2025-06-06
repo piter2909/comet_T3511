@@ -11,7 +11,7 @@ This is an example config, edit configuration.yaml and add below lines, modify t
 
 Host IP address is default device address (192.168.1.213)
 ---------------------------------------------------------------------------------
-#COPY BELOW:
+COPY BELOW INTO CONFIGURATION.YAML:
 ---------------------------------------------------------------------------------
 modbus:
   - name: modbus_comet_hub
@@ -28,7 +28,7 @@ modbus:
         state_class: measurement
         scale: 0.1
         precision: 1
-		input_type: holding
+	input_type: holding
       - name: comet_wilgotnosc
         address: 49
         unit_of_measurement: "%"
@@ -36,7 +36,7 @@ modbus:
         state_class: measurement
         scale: 0.1
         precision: 1
-		input_type: holding
+	input_type: holding
       - name: comet_cisnienie
         address: 51
         unit_of_measurement: hPa
@@ -44,4 +44,4 @@ modbus:
         state_class: measurement
         scale: 0.1
         precision: 1
-		input_type: holding
+	input_type: holding
