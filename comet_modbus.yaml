@@ -29,8 +29,8 @@ modbus:
         precision: 1
       - name: comet_punkt_rosy #nazwa_sensora_pkt_rosy
         address: 52
-        unit_of_measurement: hPa
-        device_class: atmospheric_pressure
+        unit_of_measurement: °C
+        device_class: temperature
         state_class: measurement
         scale: 0.1
         precision: 1
