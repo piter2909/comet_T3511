@@ -27,3 +27,10 @@ modbus:
         state_class: measurement
         scale: 0.1
         precision: 1
+      - name: comet_punkt_rosy #nazwa_sensora_pkt_rosy
+        address: 52
+        unit_of_measurement: hPa
+        device_class: atmospheric_pressure
+        state_class: measurement
+        scale: 0.1
+        precision: 1
